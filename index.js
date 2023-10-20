@@ -92,7 +92,8 @@ const titles = [
 //sort books alphabetically
 
 //Find who wrote War and Peace
-
+const WarAndPeace = books.filter((book) => book.name === "War and Peace")
+WarAndPeace.forEach((author) => console.log(author.authorFirst, author.authorLast))
 //how many books were written before 1900?
 
 //was there at least one book published within the last 100 years?
